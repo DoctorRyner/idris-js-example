@@ -3,4 +3,4 @@ module Main
 import Js.Console
 
 main : IO ()
-main = log "Zawarda"
+main = print "Hello from Idris"
