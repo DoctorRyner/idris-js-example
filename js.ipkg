@@ -1,6 +1,6 @@
 package js
 
 sourcedir = "src"
-modules = Js.FFI
-        , Js.Console
+modules = Js.Console
         , Js.Array
+        , Js.FFI

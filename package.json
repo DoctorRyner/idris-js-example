@@ -1,4 +1,9 @@
 {
   "name": "js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "idris2 --build js.ipkg",
+    "test-build": "idris2 test/Main.idr --codegen javascript -p js.ipkg -o index.js",
+    "test": "yarn build && yarn test-build && node build/exec/index.js"
+  }
 }
