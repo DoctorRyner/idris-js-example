@@ -10,7 +10,7 @@ x2 : Double
 x2 = 2
 
 xs : Array Double
-xs = cons 1 $ singleton $ the Double 2
+xs = cons 1 $ singleton 2
 
 main : IO ()
 main = log xs
