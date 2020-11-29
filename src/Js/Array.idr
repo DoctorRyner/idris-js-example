@@ -2,7 +2,7 @@ module Js.Array
 
 import Js.FFI
 
-export
+public export
 data Array : Type -> Type where [external]
 
 export

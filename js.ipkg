@@ -3,4 +3,6 @@ package js
 sourcedir = "src"
 modules = Js.Console
         , Js.Array
+        , Js.Object
         , Js.FFI
+        , Js.Dom
