@@ -1,8 +1,12 @@
-package js
+package js-0_0_1
 
 sourcedir = "src"
-modules = Js.Console
-        , Js.Array
+
+depends = contrib
+
+modules = Js.Dom
         , Js.Object
+        , Js.Console
         , Js.FFI
-        , Js.Dom
+        , Js.Array
+        , Js.Array.Parser
